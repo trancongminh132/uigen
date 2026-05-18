@@ -25,3 +25,8 @@ ANTHROPIC_API_KEY is not set (or is still the placeholder). Using the mock provi
  POST /api/chat 200 in 15656ms
    Reload env: .env
    Reload env: .env
+   Reload env: .env
+
+GET / 200 in 110ms
+GET /favicon.ico?favicon.45db1c09.ico 200 in 2ms
+GET /api/chat 200 in 2ms

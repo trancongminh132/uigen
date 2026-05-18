@@ -9,7 +9,18 @@
       "mcp__playwright__browser_click",
       "mcp__playwright__browser_wait_for",
       "mcp__playwright__browser_press_key",
-      "Bash(pkill *)"
+      "Bash(pkill *)",
+      "Bash(git add *)",
+      "Bash(git commit *)",
+      "Bash(git push *)",
+      "Bash(/Users/duong.vongocthai/.npm-global/bin/claude skills *)",
+      "Bash(claude skills *)",
+      "Skill(pr-description)",
+      "Bash(npm test *)",
+      "Skill(workflow-skill)",
+      "Skill(lint-skill)",
+      "Skill(test-skill)",
+      "Skill(review-skill)"
     ]
   },
   "hooks": {
@@ -19,8 +30,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "node $PWD/hooks/read_hook.js",
-            "description": "Read hook to log file access and perform preprocessing"
+            "command": "node $PWD/hooks/read_hook.js"
           }
         ]
       }
@@ -31,8 +41,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "echo \"[PostToolUse] Tool execution completed: $TOOL_NAME\"",
-            "description": "Log tool usage after execution"
+            "command": "echo \"[PostToolUse] Tool execution completed: $TOOL_NAME\""
           }
         ]
       }
