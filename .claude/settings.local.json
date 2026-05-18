@@ -15,7 +15,12 @@
       "Bash(git push *)",
       "Bash(/Users/duong.vongocthai/.npm-global/bin/claude skills *)",
       "Bash(claude skills *)",
-      "Skill(pr-description)"
+      "Skill(pr-description)",
+      "Bash(npm test *)",
+      "Skill(workflow-skill)",
+      "Skill(lint-skill)",
+      "Skill(test-skill)",
+      "Skill(review-skill)"
     ]
   },
   "hooks": {
