@@ -11,7 +11,11 @@
       "mcp__playwright__browser_press_key",
       "Bash(pkill *)",
       "Bash(git add *)",
-      "Bash(git commit *)"
+      "Bash(git commit *)",
+      "Bash(git push *)",
+      "Bash(/Users/duong.vongocthai/.npm-global/bin/claude skills *)",
+      "Bash(claude skills *)",
+      "Skill(pr-description)"
     ]
   },
   "hooks": {
